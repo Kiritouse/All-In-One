@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f191d275c41f4d78",
+        "id": "c7bf4d265b6c7672",
         "type": "tabs",
         "children": [
           {
-            "id": "c8b8c616b6299043",
+            "id": "32b384802a0b74c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "databases/第四章习题.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b43cb9a1a58b9d4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "一些坏习惯.md",
+                "file": "algorithm/exercise/程序设计设计/练习2/1534.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "一些坏习惯.md",
+                "file": "algorithm/exercise/程序设计设计/练习2/1534.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "一些坏习惯.md",
+                "file": "algorithm/exercise/程序设计设计/练习2/1534.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,15 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "一些坏习惯.md"
+                "file": "algorithm/exercise/程序设计设计/练习2/1534.md"
               }
             }
+          },
+          {
+            "id": "7c9b338fac430635",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -158,28 +154,36 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "random-note:开始漫游笔记": false,
-      "markdown-importer:打开 Markdown 格式转换器": false
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "b43cb9a1a58b9d4c",
+  "active": "32b384802a0b74c8",
   "lastOpenFiles": [
-    "Note",
-    "databases/第四章习题.md",
+    "algorithm/打表.md",
+    "algorithm/Greedy Algorithm(贪心算法).md",
+    "algorithm/exercise/程序设计设计/练习2/1534.md",
+    "2024-05-01.md",
+    "algorithm/树和图/抽象成树和图.md",
+    "algorithm/前缀和.md",
+    "algorithm/树和图/BFS,DFS.md",
+    "algorithm/树和图",
+    "DayPlan/2024-04-30.md",
     "一些坏习惯.md",
+    "algorithm/逆向思维.md",
+    "databases/第四章习题.md",
+    "DayPlan",
+    "未命名.canvas",
+    "Note",
     "algorithm/exercise/程序设计设计/练习2/1532.md",
     "databases",
     "algorithm/语法/大类型转小类型的误差.md",
-    "未命名.canvas",
-    "algorithm/逆向思维.md",
-    "algorithm/前缀和.md",
-    "algorithm/Greedy Algorithm(贪心算法).md",
     "algorithm/语法",
     "algorithm/exercise/程序设计设计/练习2",
     "algorithm/exercise/程序设计设计",
     "algorithm/exercise",
     "algorithm/Greedy Algorithm",
     "algorithm",
-    "algra",
     "Welcome.md"
   ]
 }
