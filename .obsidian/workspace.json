@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/exercise/程序设计设计/练习2/1534.md",
+                "file": "algorithm/递归分治.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/exercise/程序设计设计/练习2/1534.md",
+                "file": "algorithm/递归分治.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/exercise/程序设计设计/练习2/1534.md",
+                "file": "algorithm/递归分治.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/exercise/程序设计设计/练习2/1534.md"
+                "file": "algorithm/递归分治.md"
               }
             }
           },
@@ -160,13 +160,15 @@
   },
   "active": "32b384802a0b74c8",
   "lastOpenFiles": [
+    "algorithm/exercise/程序设计设计/练习2/1545.md",
+    "algorithm/树和图/BFS,DFS.md",
+    "algorithm/递归分治.md",
+    "algorithm/树和图/抽象成树和图.md",
+    "algorithm/exercise/程序设计设计/练习2/1534.md",
     "algorithm/打表.md",
     "algorithm/Greedy Algorithm(贪心算法).md",
-    "algorithm/exercise/程序设计设计/练习2/1534.md",
     "2024-05-01.md",
-    "algorithm/树和图/抽象成树和图.md",
     "algorithm/前缀和.md",
-    "algorithm/树和图/BFS,DFS.md",
     "algorithm/树和图",
     "DayPlan/2024-04-30.md",
     "一些坏习惯.md",
