@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/递归分治.md",
+                "file": "algorithm/exercise/程序设计设计/练习2/1568-待完善.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/递归分治.md",
+                "file": "algorithm/exercise/程序设计设计/练习2/1568-待完善.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/递归分治.md",
+                "file": "algorithm/exercise/程序设计设计/练习2/1568-待完善.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/递归分治.md"
+                "file": "algorithm/exercise/程序设计设计/练习2/1568-待完善.md"
               }
             }
           },
@@ -161,10 +161,13 @@
   "active": "32b384802a0b74c8",
   "lastOpenFiles": [
     "algorithm/exercise/程序设计设计/练习2/1545.md",
-    "algorithm/树和图/BFS,DFS.md",
-    "algorithm/递归分治.md",
-    "algorithm/树和图/抽象成树和图.md",
+    "algorithm/exercise/程序设计设计/练习2/1532.md",
     "algorithm/exercise/程序设计设计/练习2/1534.md",
+    "algorithm/树和图/堆和完全二叉树.md",
+    "algorithm/exercise/程序设计设计/练习2/1568-待完善.md",
+    "algorithm/递归分治.md",
+    "algorithm/树和图/BFS,DFS.md",
+    "algorithm/树和图/抽象成树和图.md",
     "algorithm/打表.md",
     "algorithm/Greedy Algorithm(贪心算法).md",
     "2024-05-01.md",
@@ -177,7 +180,6 @@
     "DayPlan",
     "未命名.canvas",
     "Note",
-    "algorithm/exercise/程序设计设计/练习2/1532.md",
     "databases",
     "algorithm/语法/大类型转小类型的误差.md",
     "algorithm/语法",
