@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/exercise/程序设计设计/练习2/1568-待完善.md",
+                "file": "algorithm/exercise/程序设计设计/练习2/1585.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/exercise/程序设计设计/练习2/1568-待完善.md",
+                "file": "algorithm/exercise/程序设计设计/练习2/1585.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/exercise/程序设计设计/练习2/1568-待完善.md",
+                "file": "algorithm/exercise/程序设计设计/练习2/1585.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/exercise/程序设计设计/练习2/1568-待完善.md"
+                "file": "algorithm/exercise/程序设计设计/练习2/1585.md"
               }
             }
           },
@@ -158,15 +158,18 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "32b384802a0b74c8",
+  "active": "4400e46259656309",
   "lastOpenFiles": [
+    "cloud",
+    "algorithm/数组模拟某些数据结构(防止超时,待完善).md",
+    "algorithm/树和图/BFS,DFS.md",
+    "algorithm/exercise/程序设计设计/练习2/1585.md",
+    "algorithm/exercise/程序设计设计/练习2/1568-待完善.md",
     "algorithm/exercise/程序设计设计/练习2/1545.md",
     "algorithm/exercise/程序设计设计/练习2/1532.md",
     "algorithm/exercise/程序设计设计/练习2/1534.md",
     "algorithm/树和图/堆和完全二叉树.md",
-    "algorithm/exercise/程序设计设计/练习2/1568-待完善.md",
     "algorithm/递归分治.md",
-    "algorithm/树和图/BFS,DFS.md",
     "algorithm/树和图/抽象成树和图.md",
     "algorithm/打表.md",
     "algorithm/Greedy Algorithm(贪心算法).md",
