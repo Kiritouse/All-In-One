@@ -4,5 +4,7 @@
   "obsidian-linter",
   "obsidian-git",
   "obsidian-day-planner",
-  "dataview"
+  "dataview",
+  "vim-im-select",
+  "obsidian-vimrc-support"
 ]
