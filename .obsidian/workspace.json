@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/大数取模.md",
+                "file": "algorithm/exercise/程序设计设计/练习2/1587.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/大数取模.md",
+                "file": "algorithm/exercise/程序设计设计/练习2/1587.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/大数取模.md",
+                "file": "algorithm/exercise/程序设计设计/练习2/1587.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/大数取模.md"
+                "file": "algorithm/exercise/程序设计设计/练习2/1587.md"
               }
             }
           },
@@ -160,11 +160,14 @@
   },
   "active": "32b384802a0b74c8",
   "lastOpenFiles": [
+    "algorithm/不要根据题意去模拟.md",
+    "algorithm/exercise/程序设计设计/练习2/1587.md",
+    "algorithm/复杂问题分解到简单问题.md",
+    "algorithm/大数取模.md",
     "algorithm/exercise/程序设计设计/练习2/1586.md",
     "algorithm/Greedy Algorithm(贪心算法).md",
     "algorithm/数组模拟某些数据结构(防止超时,待完善).md",
     "algorithm/逆向思维.md",
-    "algorithm/大数取模.md",
     "algorithm/exercise/程序设计设计/练习2/1585.md",
     "cloud",
     "algorithm/树和图/BFS,DFS.md",
