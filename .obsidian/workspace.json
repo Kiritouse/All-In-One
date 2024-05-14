@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/exercise/程序设计设计/练习2/1587.md",
+                "file": "Linux双系统配置的坑.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/exercise/程序设计设计/练习2/1587.md",
+                "file": "Linux双系统配置的坑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/exercise/程序设计设计/练习2/1587.md",
+                "file": "Linux双系统配置的坑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/exercise/程序设计设计/练习2/1587.md"
+                "file": "Linux双系统配置的坑.md"
               }
             }
           },
           {
-            "id": "7c9b338fac430635",
+            "id": "697f968271c3b11d",
             "type": "leaf",
             "state": {
               "type": "timeline",
@@ -138,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -160,8 +160,10 @@
   },
   "active": "32b384802a0b74c8",
   "lastOpenFiles": [
-    "algorithm/不要根据题意去模拟.md",
+    "一些坏习惯.md",
+    "README.md",
     "algorithm/exercise/程序设计设计/练习2/1587.md",
+    "algorithm/不要根据题意去模拟.md",
     "algorithm/复杂问题分解到简单问题.md",
     "algorithm/大数取模.md",
     "algorithm/exercise/程序设计设计/练习2/1586.md",
@@ -179,11 +181,10 @@
     "algorithm/递归分治.md",
     "algorithm/树和图/抽象成树和图.md",
     "algorithm/打表.md",
-    "2024-05-01.md",
+    "Linux双系统配置的坑.md",
     "algorithm/前缀和.md",
     "algorithm/树和图",
     "DayPlan/2024-04-30.md",
-    "一些坏习惯.md",
     "databases/第四章习题.md",
     "DayPlan",
     "未命名.canvas",
