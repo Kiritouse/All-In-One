@@ -35,9 +35,11 @@
             "id": "02ae14412b30f7de",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "数据库/assets/Pasted image 20240515211840.png"
+                "file": "Linux/命令.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/assets/Pasted image 20240515211840.png",
+                "file": "Linux/命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/assets/Pasted image 20240515211840.png",
+                "file": "Linux/命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/assets/Pasted image 20240515211840.png"
+                "file": "Linux/命令.md"
               }
             }
           },
@@ -183,24 +185,26 @@
   },
   "active": "02ae14412b30f7de",
   "lastOpenFiles": [
+    "数据库/范式理论.md",
+    "Linux/命令.md",
+    "Arch Wiki阅读.md",
+    "Linux双系统配置的坑.md",
+    "数据库/assets/Pasted image 20240515211840.png",
+    "Linux",
     "数据库/assets/Pasted image 20240515211822.png",
     "databases/第四章习题.md",
     "git/尽量别用git pull.md",
     "Pasted image 20240514184412.png",
     "Pasted image 20240514184547.png",
-    "数据库/范式理论.md",
     "Pasted image 20240514184456.png",
     "algorithm/exercise/程序设计设计/练习2/1587.md",
     "git",
     "数据库/assets/Pasted image 20240515211936.png",
     "数据库/assets/Pasted image 20240515211920.png",
-    "数据库/assets/Pasted image 20240515211840.png",
     "数据库/assets",
     "数据库/asstes",
     "数据库/asstes/Pasted image 20240515211532.png",
-    "Arch Wiki阅读.md",
     "数据库",
-    "Linux双系统配置的坑.md",
     "一些坏习惯.md",
     "README.md",
     "algorithm/exercise/程序设计设计/练习2/1587.md",
@@ -225,8 +229,6 @@
     "DayPlan",
     "未命名.canvas",
     "Note",
-    "databases",
-    "algorithm/语法",
-    "algorithm/exercise/程序设计设计/练习2"
+    "databases"
   ]
 }
