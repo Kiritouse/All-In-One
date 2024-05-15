@@ -35,11 +35,9 @@
             "id": "02ae14412b30f7de",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "数据库/范式理论.md",
-                "mode": "source",
-                "source": false
+                "file": "数据库/assets/Pasted image 20240515211840.png"
               }
             }
           }
@@ -110,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/范式理论.md",
+                "file": "数据库/assets/Pasted image 20240515211840.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/范式理论.md",
+                "file": "数据库/assets/Pasted image 20240515211840.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/范式理论.md"
+                "file": "数据库/assets/Pasted image 20240515211840.png"
               }
             }
           },
@@ -185,15 +183,22 @@
   },
   "active": "02ae14412b30f7de",
   "lastOpenFiles": [
+    "数据库/assets/Pasted image 20240515211822.png",
+    "databases/第四章习题.md",
+    "git/尽量别用git pull.md",
+    "Pasted image 20240514184412.png",
+    "Pasted image 20240514184547.png",
+    "数据库/范式理论.md",
+    "Pasted image 20240514184456.png",
+    "algorithm/exercise/程序设计设计/练习2/1587.md",
+    "git",
     "数据库/assets/Pasted image 20240515211936.png",
     "数据库/assets/Pasted image 20240515211920.png",
     "数据库/assets/Pasted image 20240515211840.png",
-    "数据库/assets/Pasted image 20240515211822.png",
     "数据库/assets",
     "数据库/asstes",
     "数据库/asstes/Pasted image 20240515211532.png",
     "Arch Wiki阅读.md",
-    "数据库/范式理论.md",
     "数据库",
     "Linux双系统配置的坑.md",
     "一些坏习惯.md",
@@ -216,10 +221,7 @@
     "algorithm/树和图/堆和完全二叉树.md",
     "algorithm/递归分治.md",
     "algorithm/树和图/抽象成树和图.md",
-    "algorithm/打表.md",
-    "algorithm/前缀和.md",
     "algorithm/树和图",
-    "DayPlan/2024-04-30.md",
     "DayPlan",
     "未命名.canvas",
     "Note",
