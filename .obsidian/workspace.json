@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f56a24ba2df47883",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arch Wiki阅读.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02ae14412b30f7de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据库/范式理论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux双系统配置的坑.md",
+                "file": "数据库/范式理论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux双系统配置的坑.md",
+                "file": "数据库/范式理论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux双系统配置的坑.md"
+                "file": "数据库/范式理论.md"
               }
             }
           },
@@ -158,8 +183,19 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "32b384802a0b74c8",
+  "active": "02ae14412b30f7de",
   "lastOpenFiles": [
+    "数据库/assets/Pasted image 20240515211936.png",
+    "数据库/assets/Pasted image 20240515211920.png",
+    "数据库/assets/Pasted image 20240515211840.png",
+    "数据库/assets/Pasted image 20240515211822.png",
+    "数据库/assets",
+    "数据库/asstes",
+    "数据库/asstes/Pasted image 20240515211532.png",
+    "Arch Wiki阅读.md",
+    "数据库/范式理论.md",
+    "数据库",
+    "Linux双系统配置的坑.md",
     "一些坏习惯.md",
     "README.md",
     "algorithm/exercise/程序设计设计/练习2/1587.md",
@@ -181,21 +217,14 @@
     "algorithm/递归分治.md",
     "algorithm/树和图/抽象成树和图.md",
     "algorithm/打表.md",
-    "Linux双系统配置的坑.md",
     "algorithm/前缀和.md",
     "algorithm/树和图",
     "DayPlan/2024-04-30.md",
-    "databases/第四章习题.md",
     "DayPlan",
     "未命名.canvas",
     "Note",
     "databases",
-    "algorithm/语法/大类型转小类型的误差.md",
     "algorithm/语法",
-    "algorithm/exercise/程序设计设计/练习2",
-    "algorithm/exercise/程序设计设计",
-    "algorithm/exercise",
-    "algorithm/Greedy Algorithm",
-    "Welcome.md"
+    "algorithm/exercise/程序设计设计/练习2"
   ]
 }

@@ -140,9 +140,9 @@ $ sudo reboot
 
 在 PRIME Profiles 选项可以切换性能模式和按需使用模式，单独使用 intel 集显选项是灰色的，可以使用命令开启，执行后重启电脑。
 
-|   |   |
-|---|---|
-|1  <br>2  <br>3  <br>4  <br>5  <br>6|# intel 集显  <br>sudo prime-select intel  <br># 性能模式，nvidia 独显  <br>#sudo prime-select nvidia  <br># 按需切换  <br>#sudo prime-select on-demand|
+|                                      |                                                                                                                                            |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1  <br>2  <br>3  <br>4  <br>5  <br>6 | # intel 集显  <br>sudo prime-select intel  <br># 性能模式，nvidia 独显  <br>#sudo prime-select nvidia  <br># 按需切换  <br>#sudo prime-select on-demand |
 
 重启后就能在 Setting - About 里面看到显卡只有集显了，原先是有独显和集显。
 
