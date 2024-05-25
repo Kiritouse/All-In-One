@@ -1,4 +1,6 @@
 {
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "./assets"
+  "attachmentFolderPath": "./assets",
+  "promptDelete": false,
+  "vimMode": true
 }
