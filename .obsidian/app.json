@@ -2,5 +2,6 @@
   "useMarkdownLinks": true,
   "attachmentFolderPath": "./assets",
   "promptDelete": false,
-  "vimMode": true
+  "vimMode": true,
+  "alwaysUpdateLinks": true
 }

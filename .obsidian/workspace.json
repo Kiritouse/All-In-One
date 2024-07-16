@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/范式理论.md",
+                "file": "操作系统/大纲.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "edd9ce8eb03808cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法笔记-胡凡版/Basic grammer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56cfd82e74349e9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algorithm/前缀和&&差分.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/范式理论.md",
+                "file": "algorithm/前缀和&&差分.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/范式理论.md",
+                "file": "algorithm/前缀和&&差分.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,12 +139,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/范式理论.md"
+                "file": "algorithm/前缀和&&差分.md"
               }
             }
           },
           {
-            "id": "697f968271c3b11d",
+            "id": "f025afe971204e36",
             "type": "leaf",
             "state": {
               "type": "timeline",
@@ -131,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,54 +170,54 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "4ac4367ffd912bf2",
+  "active": "56cfd82e74349e9e",
   "lastOpenFiles": [
-    "数据库/assets/Pasted image 20240528153020.png",
-    "数据库/assets/Pasted image 20240528145857.png",
-    "数据库/assets/Pasted image 20240528142604.png",
-    "数据库/assets/Pasted image 20240528142511.png",
-    "数据库/assets/Pasted image 20240528140406.png",
-    "数据库/assets/Pasted image 20240528140045.png",
-    "数据库/assets/Pasted image 20240528135459.png",
-    "数据库/范式理论.md",
-    "Linux/启动流程.md",
-    "Linux/assets/Pasted image 20240525170720.png",
-    "Linux/assets",
-    "数据库/assets/Pasted image 20240525143310.png",
-    "数据库/assets/Pasted image 20240525141435.png",
-    "数据库/sql.md",
-    "数据库/assets/Pasted image 20240523155244.png",
-    "Arch Wiki阅读.md",
-    "Linux双系统配置的坑.md",
+    "algorithm/洛谷/二分.md",
+    "algorithm/洛谷/超时的解决办法.md",
+    "algorithm/洛谷/个体的无差异性的题.md",
+    "algorithm/模板.md",
+    "algorithm/洛谷/非模拟,却当作模拟.md",
+    "algorithm/前缀和&&差分.md",
+    "algorithm/洛谷/未命名",
+    "algorithm/洛谷",
+    "algorithm/逆向思维.md",
+    "algorithm/进制转换.md",
+    "algorithm/复杂问题分解到简单问题.md",
+    "algorithm/递归分治.md",
+    "algorithm/大数取模.md",
+    "algorithm/数据规模和时间复杂度.md",
+    "algorithm/assets/QQ_1720851244996.png",
+    "algorithm/assets",
+    "algorithm/数组模拟某些数据结构(防止超时,待完善).md",
+    "algorithm/Greedy Algorithm(贪心算法).md",
     "2024-05-23.md",
+    "DayPlan/2024-04-30.md",
     "databases/第四章习题.md",
-    "algorithm/exercise/程序设计设计/练习3/1544.md",
+    "algorithm/打表.md",
+    "algorithm/不要根据题意去模拟.md",
+    "algorithm/树和图/BFS,DFS.md",
+    "algorithm/树和图/堆和完全二叉树.md",
+    "algorithm/树和图/抽象成树和图.md",
+    "algorithm/exercise/程序设计设计/练习2/1532.md",
+    "algorithm/exercise/程序设计设计/练习2/1534.md",
+    "算法笔记-胡凡版/assets/Pasted image 20240706170929.png",
+    "算法笔记-胡凡版/assets",
+    "操作系统/大纲.md",
+    "算法笔记-胡凡版/Basic grammer.md",
+    "算法笔记-胡凡版",
+    "操作系统/assets/Pasted image 20240626163456.png",
+    "操作系统/assets/Pasted image 20240626162250.png",
+    "操作系统/assets/Pasted image 20240626160253.png",
+    "操作系统/assets",
+    "操作系统/assets/Pasted image 20240626160242.png",
+    "操作系统/assets/Pasted image 20240626160228.png",
+    "操作系统",
+    "数据库/assets/Pasted image 20240605084603.png",
+    "数据库/assets/Pasted image 20240604200518.png",
+    "数据库/assets/Pasted image 20240603212233.png",
+    "Linux/assets",
     "algorithm/优先队列",
     "algorithm/exercise/数",
-    "algorithm/未命名.md",
-    "Linux/命令.md",
-    "algorithm/exercise/程序设计设计/练习3",
-    "Linux",
-    "git/尽量别用git pull.md",
-    "algorithm/exercise/程序设计设计/练习2/1587.md",
-    "git",
-    "数据库/assets",
-    "数据库/asstes",
-    "数据库",
-    "一些坏习惯.md",
-    "README.md",
-    "algorithm/exercise/程序设计设计/练习2/1587.md",
-    "algorithm/不要根据题意去模拟.md",
-    "algorithm/复杂问题分解到简单问题.md",
-    "algorithm/大数取模.md",
-    "algorithm/exercise/程序设计设计/练习2/1586.md",
-    "algorithm/Greedy Algorithm(贪心算法).md",
-    "algorithm/数组模拟某些数据结构(防止超时,待完善).md",
-    "algorithm/逆向思维.md",
-    "algorithm/exercise/程序设计设计/练习2/1585.md",
-    "cloud",
-    "algorithm/树和图/BFS,DFS.md",
-    "algorithm/exercise/程序设计设计/练习2/1568-待完善.md",
     "未命名.canvas"
   ]
 }

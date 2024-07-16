@@ -8,12 +8,35 @@ create table table_name(
 )
 # 表的更新
 ## insert
-insert into instructor values ('10211', 'Smith', 'Biology', 66000);
+
+```sql
+insert into instructor values ('10211', 'Smith', 'Biology', 66000); --适用于单个数值
+INSERT INTO target_table (col1, col2, col3) --使用于多个
+SELECT col1, col2, col3 
+FROM source_table 
+WHERE condition;
+```
+![](Pasted%20image%2020240603212233.png)
 ## delete
+```sql
+DELETE FROM sales WHERE order_id = 1;
+```
 
-## drop
+## update
+```sql
+UPDATE Orders
+SET status = CASE
+    WHEN amount > 1000 AND payment_method = 'Credit Card' THEN 'Paid'
+END;
 
-## alter
+UPDATE employees
+
+SET salary = 6000, job_id = 'IT_PROG'
+
+WHERE employee_id = 1;
+```
+
+
 
 # 基础查询
 
@@ -67,6 +90,8 @@ count计数
 select中选中的非聚集的函数的列必须出现在group by子句
 
 ## 嵌套子查询
+
+
 select-from-where
 	select A1,A2,...,An
 		from r1,r2,...,rm
@@ -79,11 +104,11 @@ select-from-where
 		Ai能被标量子查询(返回一行)来进行替代
 
 
-## 空集测试
+### 空集测试
 exists(sub)  只要sub返回的有数据就为真,可以看作  ,存在这样一种情况为真
 not exists(sub) 只要sub返回的数据为null就为真,不存在这样一种情况为真
 
-## not exists
+### not exists   (反向思考)
 1. 查询上过心理学院所有课程的学生的ID和姓名.
 select S.ID, S.name
 from student as S
@@ -101,7 +126,7 @@ where not exists ( (select course_id
 ```
 
 Note that X – Y = Ø     X是 Y的子集
-第一个子查询列举生物院的所有课程
+第一个子查询列举心理院的所有课程
 第二个子查询列举学生上过的所有课程
 2. 给计算机学院姓名以"J"开头的所有同学都上过课的老师的信息
 > 这种有**所有**的,考虑两个not exits嵌套(查询 xx过xx所有xx的xx的信息)
@@ -138,6 +163,9 @@ SELECT a.id, a.name
                            WHERE a.id = c.id 
                              AND b.course_id = c.course_id))
 ```
+### IN,NOT IN
+> 最先干的写最里面,其次写中间,最后写最外面 ,只适用这个
+![](Pasted%20image%2020240604200518.png)
 
 ## with
 > 查询每年课程的授课人次超过本课程开设院在本年开设课程的修课总人数1/3的课程名，年份，修课人次，本院课程总修课人次，所占百分比
@@ -169,6 +197,11 @@ SELECT ta.title,
 
 ## 标量子查询
 返回的必须是单个数值,不能是一行或者多个或者多行数据
+### 相关子查询
+> 父查询的查询条件会传导到下一层子查询
+
+### 不相关子查询
+> 相反
 
 ## 删除
 ```sql
@@ -209,4 +242,22 @@ SELECT
     SUM(CASE WHEN order_amount > 500 AND order_amount <= 1000 THEN 1 ELSE 0 END) AS medium_order_count,  
     SUM(CASE WHEN order_amount <= 500 THEN 1 ELSE 0 END) AS low_order_count  
 FROM orders;
+```
+
+## CASE的替代
+**decode**(条件,值1,返回值1,值2,返回值2,...值n,返回值n,缺省值)
+if 条件=值1 返回值1
+else if 条件=值2 返回值2
+> 例如 
+
+```sql
+SELECT course_id,sec_id,ID,decode(name,null,'-',name) as name
+FROM (section NATURAL LEFT OUTER JOIN teaches)
+    NATURAL LEFT OUTER JOIN instructor
+WHERE semester = 'Spring' AND year = 2018;
+```
+
+coalesce(值1,值2,...) 返回第一个不为Null的值,如果都为Null就返回Null
+```sql
+coalesce(name,'-')
 ```
