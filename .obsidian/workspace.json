@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/算法思维.md",
+                "file": "algorithm/关于数据类型转换.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "二分",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 375.5
   },
   "right": {
     "id": "675e8ea299c86a44",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/算法思维.md",
+                "file": "algorithm/关于数据类型转换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/算法思维.md",
+                "file": "algorithm/关于数据类型转换.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/算法思维.md"
+                "file": "algorithm/关于数据类型转换.md"
               }
             }
           },
@@ -147,8 +147,13 @@
   },
   "active": "1927843286441bd0",
   "lastOpenFiles": [
-    "操作系统/大纲.md",
+    "algorithm/模板.md",
+    "algorithm/关于数据类型转换.md",
+    "algorithm/洛谷/二分.md",
+    "algorithm/洛谷/assets/Pasted image 20240725190134.png",
+    "algorithm/洛谷/assets",
     "algorithm/算法思维.md",
+    "操作系统/大纲.md",
     "algorithm/区分模拟题和找规律题.md",
     "algorithm/区间问题.md",
     "algorithm/大数取模.md",
@@ -161,11 +166,9 @@
     "algorithm/数据规模和时间复杂度.md",
     "algorithm/STL.md",
     "algorithm/前缀和&&差分.md",
-    "algorithm/模板.md",
     "algorithm/逆向思维.md",
     "algorithm/打表.md",
     "algorithm/不要根据题意去模拟.md",
-    "algorithm/洛谷/二分.md",
     "algorithm/洛谷/超时的解决办法.md",
     "algorithm/洛谷/个体的无差异性的题.md",
     "algorithm/洛谷/非模拟,却当作模拟.md",
@@ -176,7 +179,6 @@
     "2024-05-23.md",
     "DayPlan/2024-04-30.md",
     "databases/第四章习题.md",
-    "algorithm/树和图/BFS,DFS.md",
     "算法笔记-胡凡版/assets/Pasted image 20240706170929.png",
     "算法笔记-胡凡版/assets",
     "算法笔记-胡凡版",
@@ -189,10 +191,8 @@
     "操作系统",
     "数据库/assets/Pasted image 20240605084603.png",
     "数据库/assets/Pasted image 20240604200518.png",
-    "数据库/assets/Pasted image 20240603212233.png",
     "Linux/assets",
     "algorithm/优先队列",
-    "algorithm/exercise/数",
     "未命名.canvas"
   ]
 }
