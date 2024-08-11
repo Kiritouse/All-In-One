@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/关于数据类型转换.md",
+                "file": "algorithm/算法思维.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3691dbda83255ff0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Yulong 模型移植.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ce72bca0296f59d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algorithm/STL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 422.5
   },
   "right": {
     "id": "675e8ea299c86a44",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/关于数据类型转换.md",
+                "file": "algorithm/STL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/关于数据类型转换.md",
+                "file": "algorithm/STL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,12 +139,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/关于数据类型转换.md"
+                "file": "algorithm/STL.md"
               }
             }
           },
           {
-            "id": "f025afe971204e36",
+            "id": "36ed27988c2a07ef",
             "type": "leaf",
             "state": {
               "type": "timeline",
@@ -145,54 +170,54 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "1927843286441bd0",
+  "active": "9ce72bca0296f59d",
   "lastOpenFiles": [
-    "algorithm/模板.md",
+    "c++/迭代器.md",
+    "algorithm/STL.md",
+    "c++/未命名",
+    "c++",
+    "algorithm/ccf_csp/差分本质利用+hash优化.md",
+    "algorithm/ccf_csp/assets/de1c644c0c6e930a681948fa0a529c69_720.jpg",
+    "algorithm/ccf_csp/assets",
+    "algorithm/前缀和&&差分.md",
+    "algorithm/ccf_csp/不要去模拟,一定要抓住本质.md",
+    "gdb调试技巧.md",
+    "algorithm/ccf_csp",
+    "Yulong 模型移植.md",
+    "algorithm/算法思维.md",
+    "未命名/未命名.md",
+    "algorithm/一些优化技巧.md",
+    "algorithm/数组模拟某些数据结构(防止超时,待完善).md",
+    "algorithm/区分模拟题和找规律题.md",
     "algorithm/关于数据类型转换.md",
+    "algorithm/模板.md",
     "algorithm/洛谷/二分.md",
     "algorithm/洛谷/assets/Pasted image 20240725190134.png",
     "algorithm/洛谷/assets",
-    "algorithm/算法思维.md",
     "操作系统/大纲.md",
-    "algorithm/区分模拟题和找规律题.md",
     "algorithm/区间问题.md",
     "algorithm/大数取模.md",
     "algorithm/进制转换.md",
     "algorithm/复杂问题分解到简单问题.md",
     "algorithm/递归分治.md",
     "algorithm/Greedy Algorithm(贪心算法).md",
-    "algorithm/一些优化技巧.md",
-    "algorithm/数组模拟某些数据结构(防止超时,待完善).md",
     "algorithm/数据规模和时间复杂度.md",
-    "algorithm/STL.md",
-    "algorithm/前缀和&&差分.md",
     "algorithm/逆向思维.md",
     "algorithm/打表.md",
     "algorithm/不要根据题意去模拟.md",
-    "algorithm/洛谷/超时的解决办法.md",
-    "algorithm/洛谷/个体的无差异性的题.md",
-    "algorithm/洛谷/非模拟,却当作模拟.md",
     "algorithm/洛谷/未命名",
     "algorithm/洛谷",
     "algorithm/assets/QQ_1720851244996.png",
     "algorithm/assets",
-    "2024-05-23.md",
-    "DayPlan/2024-04-30.md",
-    "databases/第四章习题.md",
     "算法笔记-胡凡版/assets/Pasted image 20240706170929.png",
     "算法笔记-胡凡版/assets",
     "算法笔记-胡凡版",
     "操作系统/assets/Pasted image 20240626163456.png",
     "操作系统/assets/Pasted image 20240626162250.png",
     "操作系统/assets/Pasted image 20240626160253.png",
-    "操作系统/assets",
     "操作系统/assets/Pasted image 20240626160242.png",
     "操作系统/assets/Pasted image 20240626160228.png",
-    "操作系统",
     "数据库/assets/Pasted image 20240605084603.png",
-    "数据库/assets/Pasted image 20240604200518.png",
-    "Linux/assets",
-    "algorithm/优先队列",
     "未命名.canvas"
   ]
 }
