@@ -162,5 +162,121 @@ list.sort(std::greater<int>());//使用自定义比较函数进行排序(降序)
 list.unique() // 删除重复元素
 list.splice() // 从另一个 list 中移动元素
 
+```
+
+
+### deque
+双端队列
+优点:
+
+1. 随机访问方便, 支持`[]`操作符和`.at()`访问函数, 常数时间, 次于 vector, 因为有可能存在尾部的内存位置在头部之前的场景.
+2. 可在两端进行push, pop操作, 效率都较高.
+
+缺点:  
+占用内存多
+
+#### 常用函数
+```c++
+push_back()
+pop_back()
+push_front() // vector 没有该函数
+pop_front() // vector 没有该函数
+```
+
+## 关联式容器
+| 容器 | 说明 | 底层实现 | 操作复杂度 |
+|------|------|----------|------------|
+| map | 键值对的映射, 有序, 元素不可重复 | 红黑树 | O(logn) |
+| unordered_map | 键值对的映射, 无序, 元素不可重复 | 哈希表 | O(1) |
+| multimap | 键值对的映射, 有序, 元素可重复 | 红黑树 | O(logn) |
+| unordered_multimap | 键值对的映射, 无序, 元素可重复 | 哈希表 | O(1) |
+| set | 关键字集合, 有序, 元素不可重复 | 红黑树 | O(logn) |
+| unordered_set | 关键字集合, 无序, 元素不可重复 | 哈希表 | O(1) |
+| multiset | 关键字集合, 有序, 元素可重复 | 红黑树 | O(logn) |
+| unordered_multiset | 关键字集合, 无序, 元素可重复 | 哈希表 | O(1) |
+### map
+- 相当于字典,==每个关键字只出现一次==
+- 底部采用红黑树,会自动排序
+#### 常用操作
+```c++
+// 数据插入, 复杂度为 logn
+map.insert({key, value});
+map[key] = value;
+// 移除, 复杂度为 logn
+map.erase(key)
+// 搜索, 复杂度为 logn
+map.find()
+map[key]
+
+map.count() // 返回匹配特定键的元素数量,要么0要么1,因为只出现一次, 对数复杂度
+map.contains(key) //检查map中是否包含特定键,c++20引入
+map.equal_range(key)//返回一个pair<iterator,iterator>,
+//如果键存在，`pair.first` 会指向该键的元素，`pair.second` 会指向下一个元素(范围外)。如果键不存在，`pair.first` 和 `pair.second` 会相等，指向第一个大于给定键的元素。
+/*
+- **作用**：返回一个迭代器，指向第一个不小于给定键的元素。
+- **用途**：用于查找第一个大于或等于给定键的元素，适用于需要查找某个范围起点的情况
+*/
+map.lower_bound(key)
+map.upper_bound()
+```
+
+### unorder_map
+##### 声明和初始化
+```c++
+unordered_map<type1,type2>u_map;//类似于vec[i] = value,即通过type1来查询type2
+// 定义一个嵌套的unordered_map来存储坐标和值
+ std::unordered_map<int, std::unordered_map<int, int>> pointMap;
+ //可以快速查询大量的map[i][j] = value,即二维查询
 
 ```
+##### 常用操作
+```c++
+// 构造函数
+	map<string, int> dict;
+	
+	// 插入数据的三种方式
+	dict.insert(pair<string,int>("apple",2));
+	dict.insert(map<string, int>::value_type("orange",3));
+	dict["banana"] = 6;
+ 
+	// 判断是否有元素
+	if(dict.empty())
+		cout<<"该字典无元素"<<endl;
+	else
+		cout<<"该字典共有"<<dict.size()<<"个元素"<<endl;
+ 
+	// 遍历
+	map<string, int>::iterator iter;
+	for(iter=dict.begin();iter!=dict.end();iter++)
+		cout<<iter->first<<ends<<iter->second<<endl;
+ 
+	// 查找  /*这个是最主要的用途*/
+	if((auto iter=dict.find("banana"))!=dict.end()) //  返回一个迭代器指向键值为key的元素，如果没找到就返回end()
+		cout<<"已找到banana,其value为"<<iter->second<<"."<<endl;
+	else
+//如果之间用dict[i]来进行查找,就还是会有问题,因为如果这样如果没有i,就会生成并且插入i,速度比较慢,用find会比较快
+
+
+```
+
+# 库函数
+这里是搜集一些好用的库函数和使用注意事项
+
+## unique()
+> "去除"容器或数组中的重复元素
+> 这里的去除实际上是指将重复的元素放到容器的末尾,返回的是去重后的数组的最后一个元素的地址
+
+用法
+```c++
+
+    int a[8] = {2, 2, 2, 4, 4, 6, 7, 8};
+    int c;
+    std::sort(a, a + 8);  //对于无序的数组需要先排序
+    c = (std::unique(a, a + 8) - a );//因为返回的是所构造的不重复数组的尾地址,所以这里要减去开头的
+    std::cout<< "c = " << c << std::endl;
+    //打印去重后的数组成员
+    for (int i = 0; i < c; i++)
+        std::cout<< "a = [" << i << "] = " << a[i] << std::endl;
+
+```
+
