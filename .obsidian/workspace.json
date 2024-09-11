@@ -8,36 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1927843286441bd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algorithm/二分算法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3691dbda83255ff0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/STL.md",
+                "file": "algorithm/ccf_csp/逆向思维+根据数据范围选择合适的时间复杂度.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9ce72bca0296f59d",
+            "id": "e1c37204a94ffe5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/数据规模和时间复杂度.md",
+                "file": "algorithm/洛谷/二分.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "二分",
+                "query": "isBlue",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/二分算法.md",
+                "file": "algorithm/ccf_csp/逆向思维+根据数据范围选择合适的时间复杂度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/二分算法.md",
+                "file": "algorithm/ccf_csp/逆向思维+根据数据范围选择合适的时间复杂度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,12 +126,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/二分算法.md"
+                "file": "algorithm/ccf_csp/逆向思维+根据数据范围选择合适的时间复杂度.md"
               }
             }
           },
           {
-            "id": "36ed27988c2a07ef",
+            "id": "222679ed9094132d",
             "type": "leaf",
             "state": {
               "type": "timeline",
@@ -155,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,37 +157,39 @@
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "1927843286441bd0",
+  "active": "3691dbda83255ff0",
   "lastOpenFiles": [
-    "algorithm/洛谷/二分.md",
-    "algorithm/洛谷/非模拟,却当作模拟.md",
-    "algorithm/二分算法.md",
+    "algorithm/ccf_csp/求一段区间内的总贡献---前缀和的灵活运用.md",
+    "algorithm/ccf_csp/题目中的每个条件都是有用的.md",
+    "algorithm/ccf_csp/以后还是多用stl的思想.md",
+    "algorithm/ccf_csp/差分本质利用+hash优化.md",
+    "algorithm/ccf_csp/不要去模拟,一定要抓住本质.md",
+    "algorithm/ccf_csp/逆向思维+根据数据范围选择合适的时间复杂度.md",
     "algorithm/算法模板.md",
-    "algorithm/Greedy Algorithm(贪心算法).md",
-    "algorithm/STL.md",
+    "algorithm/洛谷/二分.md",
+    "algorithm/数组模拟某些数据结构(防止超时,待完善).md",
+    "algorithm/算法思维.md",
+    "Linux/内核知识.md",
+    "未命名.md",
+    "八股文/linux部分.md",
+    "八股文",
+    "algorithm/前缀和&&差分.md",
     "algorithm/区分模拟题和找规律题.md",
     "algorithm/区间问题.md",
+    "algorithm/数据规模和时间复杂度.md",
+    "algorithm/STL.md",
+    "algorithm/Greedy Algorithm(贪心算法).md",
+    "algorithm/ccf_csp/assets/Pasted image 20240907125222.png",
+    "algorithm/二分算法.md",
+    "algorithm/ccf_csp/优先队列&&从样例中看出端倪,解法.md",
+    "algorithm/洛谷/非模拟,却当作模拟.md",
     "algorithm/语法判重.md",
-    "algorithm/算法思维.md",
     "algorithm/搜索/记忆化搜索.md",
     "algorithm/一些模板",
-    "algorithm/前缀和&&差分.md",
     "algorithm/assets/Pasted image 20240826144427.png",
     "algorithm/搜索",
     "algorithm/一些优化技巧.md",
-    "algorithm/数据规模和时间复杂度.md",
-    "algorithm/数组模拟某些数据结构(防止超时,待完善).md",
     "algorithm/进制转换.md",
-    "Yulong 模型移植.md",
-    "algorithm/逆向思维.md",
-    "algorithm/关于数据类型转换.md",
-    "algorithm/复杂问题分解到简单问题.md",
-    "algorithm/大数取模.md",
-    "algorithm/ccf_csp/差分本质利用+hash优化.md",
-    "algorithm/ccf_csp/不要去模拟,一定要抓住本质.md",
-    "algorithm/exercise/程序设计设计/练习2/1534.md",
-    "algorithm/exercise/程序设计设计/练习2/1532.md",
-    "c++/STL.md",
     "c++/未命名",
     "c++",
     "algorithm/ccf_csp/assets/de1c644c0c6e930a681948fa0a529c69_720.jpg",
@@ -211,13 +200,11 @@
     "algorithm/洛谷/未命名",
     "algorithm/洛谷",
     "algorithm/assets/QQ_1720851244996.png",
-    "algorithm/assets",
     "算法笔记-胡凡版/assets/Pasted image 20240706170929.png",
     "操作系统/assets/Pasted image 20240626163456.png",
     "操作系统/assets/Pasted image 20240626162250.png",
     "操作系统/assets/Pasted image 20240626160253.png",
     "操作系统/assets/Pasted image 20240626160242.png",
-    "操作系统/assets/Pasted image 20240626160228.png",
     "未命名.canvas"
   ]
 }
