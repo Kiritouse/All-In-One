@@ -16,7 +16,9 @@
                 "file": "algorithm/数据规模和时间复杂度.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "数据规模和时间复杂度"
             }
           },
           {
@@ -25,14 +27,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/算法模板.md",
+                "file": "algorithm/一些细节.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "一些细节"
+            }
+          },
+          {
+            "id": "73b8d6d0d9bd7e88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "algorithm/树和图/图.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "图"
+            }
+          },
+          {
+            "id": "bdd5f1e14e660d4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "leetcode刷题/二叉树.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "二叉树"
+            }
+          },
+          {
+            "id": "966382b88dcbb0df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "leetcode遇到的算法/分治.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "分治"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -52,7 +98,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -67,7 +115,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,14 +125,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 539.5
+    "width": 200
   },
   "right": {
     "id": "675e8ea299c86a44",
@@ -98,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/算法模板.md",
+                "file": "leetcode/单调栈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +158,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 单调栈"
             }
           },
           {
@@ -115,10 +169,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/算法模板.md",
+                "file": "leetcode/单调栈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 单调栈"
             }
           },
           {
@@ -127,16 +183,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/算法模板.md"
-              }
+                "file": "leetcode遇到的算法/分治.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 分治"
             }
           },
           {
-            "id": "222679ed9094132d",
+            "id": "246ee96157f0e0a4",
             "type": "leaf",
             "state": {
               "type": "timeline",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Day Planner Timeline"
             }
           }
         ],
@@ -148,19 +208,42 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "random-note:开始漫游笔记": false,
-      "markdown-importer:打开 Markdown 格式转换器": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
       "obsidian-day-planner:Timeline": false
     }
   },
-  "active": "45a787c406f037cc",
+  "active": "966382b88dcbb0df",
   "lastOpenFiles": [
+    "leetcode遇到的算法/BFS广度优先搜索.md",
+    "leetcode遇到的算法/分治.md",
+    "leetcode遇到的算法/DFS深度优先搜索的应用.md",
+    "leetcode遇到的算法/拓扑排序.md",
+    "leetcode遇到的算法/动态规划.md",
+    "leetcode遇到的数据结构/单调栈.md",
+    "leetcode遇到的数据结构/字典树（前缀树）.md",
+    "leetcode/Untitled",
+    "架构图绘制.md",
+    "gdb调试技巧.md",
+    "GDB调试.md",
+    "一些坏习惯.md",
+    "leetcode遇到的数据结构/链表.md",
+    "leetcode遇到的数据结构/二叉树.md",
     "algorithm/数据规模和时间复杂度.md",
+    "leetcode遇到的算法",
+    "leetcode遇到的数据结构",
+    "algorithm/树和图/图.md",
+    "algorithm/树和图/抽象成树和图.md",
+    "algorithm/树和图/BFS,DFS.md",
+    "algorithm/树和图/堆和完全二叉树.md",
+    "assets/Pasted image 20240925141550.png",
+    "assets",
+    "algorithm/一些细节.md",
     "algorithm/算法模板.md",
     "algorithm/1.详解-预处理-差分-前缀和.md",
     "algorithm/数组模拟某些数据结构(防止超时,待完善).md",
@@ -168,44 +251,21 @@
     "algorithm/进制转换.md",
     "algorithm/逆向思维.md",
     "algorithm/前缀和&&差分.md",
-    "algorithm/复杂问题分解到简单问题.md",
     "algorithm/ccf_csp/assets/Pasted image 20240916172119.png",
     "algorithm/ccf_csp/assets/Pasted image 20240907125222.png",
     "algorithm/ccf_csp/assets/de1c644c0c6e930a681948fa0a529c69_720.jpg",
     "algorithm/assets/QQ_1720851244996.png",
     "algorithm/assets/Pasted image 20240917121547.png",
     "algorithm/assets/Pasted image 20240826144427.png",
-    "algorithm/算法思维.md",
-    "algorithm/区分模拟题和找规律题.md",
-    "algorithm/可以多使用assert来寻找可能的边界问题.md",
-    "algorithm/ccf_csp/未命名.md",
-    "algorithm/STL.md",
-    "algorithm/ccf_csp/二维转一维---坐标对的存储和快速遍历---可以用故意用assert来进行边界检测.md",
-    "algorithm/ccf_csp/题目中的每个条件都是有用的---二维转一维.md",
-    "algorithm/ccf_csp/求一段区间内的总贡献---前缀和的灵活运用.md",
-    "algorithm/ccf_csp/逆向思维+根据数据范围选择合适的时间复杂度.md",
-    "algorithm/ccf_csp/可以先遍历所有数据集,再选择部分输出(过滤)---搜索与动态规划.md",
-    "algorithm/ccf_csp/不要去模拟,一定要抓住本质.md",
-    "algorithm/ccf_csp/差分本质利用+hash优化.md",
-    "Linux/内核知识.md",
     "algorithm/assets/Pasted image 20240918192546.png",
-    "algorithm/洛谷/二分.md",
-    "algorithm/二分算法.md",
-    "c++/STL.md",
-    "c++/迭代器.md",
     "algorithm/未命名",
     "八股文",
     "algorithm/一些模板",
     "algorithm/搜索",
     "c++/未命名",
     "c++",
-    "algorithm/ccf_csp/assets",
-    "algorithm/ccf_csp",
     "algorithm/洛谷/assets/Pasted image 20240725190134.png",
-    "algorithm/洛谷/assets",
-    "algorithm/洛谷/未命名",
     "算法笔记-胡凡版/assets/Pasted image 20240706170929.png",
-    "操作系统/assets/Pasted image 20240626163456.png",
     "未命名.canvas"
   ]
 }
